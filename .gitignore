@@ -1,0 +1,9 @@
+babel.config.js
+.eslintrc.js
+node_modules
+package-lock.json
+*main.js
+*main.py
+task_0/dist/
+task_0/node_modules
+__pycache__
