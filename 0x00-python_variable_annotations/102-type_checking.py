@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Correcting this module to be in line with mypy
 """
-
 from typing import Tuple, Any, List, Union
 
 
