@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Correcting this module to be in line with mypy
-"""
+"""Correcting this module to be in line with mypy"""
 from typing import Tuple, Any, List, Union
 
 
@@ -8,7 +7,7 @@ def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
     """Zooms an array"""
     zoomed_in: Tuple = tuple([
         item for item in lst
-        for i in range(int(factor))
+        for i in range(factor)
     ])
     return zoomed_in
 
