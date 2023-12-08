@@ -3,12 +3,12 @@
 from typing import Tuple, Any, List, Union
 
 
-def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """Zooms an array"""
-    zoomed_in: Tuple = tuple([
+    zoomed_in: List = [
         item for item in lst
         for i in range(factor)
-    ])
+    ]
     return zoomed_in
 
 
