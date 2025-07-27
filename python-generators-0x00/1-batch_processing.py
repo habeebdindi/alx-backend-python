@@ -27,7 +27,8 @@ def batch_processing(batch_size):
     try:
         for batch in stream_users_in_batches(batch_size):
             for user in batch:
-                print(user)
+                if user['age'] > 25:
+                    print(user)
     except Exception as e:
         print(f"Processing error: {e}")
         return

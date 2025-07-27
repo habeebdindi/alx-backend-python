@@ -7,3 +7,4 @@ package-lock.json
 task_0/dist/
 task_0/node_modules
 __pycache__
+.venv
