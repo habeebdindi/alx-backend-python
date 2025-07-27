@@ -60,7 +60,7 @@ def create_table(connection):
             " `user_id` CHAR(36) PRIMARY KEY DEFAULT (UUID()),"
             " `name` VARCHAR(255) NOT NULL,"
             " `email` VARCHAR(255) NOT NULL,"
-            " `age` DECIMAL(5,2) NOT NULL,"
+            " `age` INTEGER NOT NULL,"
             " INDEX idx_user_id (`user_id`)"
             ") ENGINE=InnoDB;"
         )
